@@ -1,0 +1,4 @@
+// c++ --std=c++11 -I/usr/local/include/xrootd/ -fPIC -shared -o libAaaClMon.so AaaClMon.cc
+
+// LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH XRD_CLIENTMONITOR=libAaaClMon.so
+// XRD_CLIENTMONITORPARAM="Quaka Omaka"
